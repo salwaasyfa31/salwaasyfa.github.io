@@ -1,1 +1,69 @@
+:root {
+  --vanilla: #F8F5EC;
+  --light-brown: #C2A17E;
+  --soft-brown: #A07C5A;
+  --dark-brown: #4A3427;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--vanilla);
+  color: var(--dark-brown);
+}
+
+.navbar {
+  background: var(--light-brown);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--dark-brown);
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: var(--vanilla);
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.hero {
+  padding: 80px;
+  text-align: center;
+  background: var(--soft-brown);
+  color: white;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.footer {
+  background: var(--light-brown);
+  text-align: center;
+  padding: 15px;
+}
 
