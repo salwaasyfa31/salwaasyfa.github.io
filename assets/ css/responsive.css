@@ -1,1 +1,10 @@
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+  }
+}
 
